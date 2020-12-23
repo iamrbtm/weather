@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/Users/jeremyguill/opt/anaconda3/envs/westher/bin/python3.8",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.wordWrap": "wordWrapColumn",
+    "pip-updater.AutoUpdate": true,
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true,
+
+}
