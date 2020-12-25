@@ -33,6 +33,10 @@ def current_weather():
 
     response = requests.get(weather_complete_url)
     x = response.json()
+    
+    jsonfile = open('current.json', 'w')
+    jsonfile.write(str(x))
+    jsonfile.close()
 
     temp = round((((x['main']['temp']-273.150)*1.8)+32))
 
@@ -45,7 +49,7 @@ def current_weather():
     sunset = (datetime.utcfromtimestamp(
         x['sys']['sunset'])-timedelta(hours=8)).strftime('%I:%M %p')
 
-    return {'temp': temp, 'icon': iconpic, 'city': city, 'lat': lat, 'lon': lon, 'sunrise': sunrise, 'sunset': sunset}
+    return {'temp': temp, 'icon': iconpic, 'city': city, 'lat': lat, 'lon': lon, 'sunrise': sunrise, 'sunset': sunset, 'json': str(x)}
 
 
 if __name__ == '__main__':

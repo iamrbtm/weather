@@ -36,7 +36,7 @@ def five_day_forcast():
         lst = [UTCdate, temprature, description, iconpath, dt_text]
         forcast.append(lst)
 
-    return forcast
+    return {'forcast': forcast, 'json': str(x)}
 
 
 if __name__ == '__main__':
