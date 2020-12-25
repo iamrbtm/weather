@@ -1,5 +1,6 @@
 from support import getloc, api_key, icon
 import requests
+from database import insert_data_forcast
 
 
 def five_day_forcast():
@@ -29,14 +30,16 @@ def five_day_forcast():
 
     for cast in x['list']:
         UTCdate = cast['dt']
-        temprature = cast['main']['temp']
+        temprature = round((((cast['main']['temp']-273.150)*1.8)+32))
         description = cast['weather'][0]['main']
         iconpath = icon(cast['weather'][0]['icon'])
         dt_text = cast['dt_txt']
         lst = [UTCdate, temprature, description, iconpath, dt_text]
         forcast.append(lst)
+        insert_data_forcast(UTCdate, temprature, description, iconpath, dt_text)
 
-    return {'forcast': forcast, 'json': str(x)}
+
+    return {'forcast': forcast, 'json': response}
 
 
 if __name__ == '__main__':

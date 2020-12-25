@@ -1,6 +1,8 @@
+from database import insert_data_current
 import requests
 from datetime import datetime, timedelta
 from support import getloc, api_key
+
 
 def current_weather():
     """Weather Getter
@@ -33,7 +35,7 @@ def current_weather():
 
     response = requests.get(weather_complete_url)
     x = response.json()
-    
+
     jsonfile = open('current.json', 'w')
     jsonfile.write(str(x))
     jsonfile.close()
@@ -49,7 +51,9 @@ def current_weather():
     sunset = (datetime.utcfromtimestamp(
         x['sys']['sunset'])-timedelta(hours=8)).strftime('%I:%M %p')
 
-    return {'temp': temp, 'icon': iconpic, 'city': city, 'lat': lat, 'lon': lon, 'sunrise': sunrise, 'sunset': sunset, 'json': str(x)}
+    insert_data_current(temp, iconpic, city, lat, lon, sunrise, sunset)
+
+    return {'temp': temp, 'icon': iconpic, 'city': city, 'lat': lat, 'lon': lon, 'sunrise': sunrise, 'sunset': sunset}
 
 
 if __name__ == '__main__':

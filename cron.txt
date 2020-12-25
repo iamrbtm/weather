@@ -1,0 +1,4 @@
+Opened database successfully
+{'temp': 31, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+{'temp': 31, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}

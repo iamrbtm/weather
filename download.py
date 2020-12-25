@@ -8,10 +8,10 @@ url = 'https://openweathermap.org/img/wn/'
 for file in files:
     r = requests.get(url + file + '@2x.png')
     im = Image.open(BytesIO(r.content))
-    im.save('img/icons/' + file + '@2x.png')
+    im.save('forcast/' + file + '@2x.png')
 
     r = requests.get(url + file + '.png')
     im = Image.open(BytesIO(r.content))
-    im.save('img/icons/' + file + '.png')
+    im.save('forcast/' + file + '.png')
     
-    print ('Done with ' + file[:2])
+    print ('Done with ' + file)
