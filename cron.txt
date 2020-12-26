@@ -17,3 +17,289 @@ Execution Time: 12/25/2020 3:15:1
 Opened database successfully
 Execution Time: 12/25/2020 3:20:1
 {'temp': 31, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 3:25:12
+{'temp': 31, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x10ae8e7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10ae8e7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "current.py", line 60, in <module>
+    cur_weather = current_weather()
+  File "current.py", line 26, in current_weather
+    location = getloc()
+  File "/Users/jeremyguill/Desktop/weather/support.py", line 48, in getloc
+    res = requests.get('https://ipinfo.io/')
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10ae8e7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x1083487f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1083487f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "current.py", line 60, in <module>
+    cur_weather = current_weather()
+  File "current.py", line 26, in current_weather
+    location = getloc()
+  File "/Users/jeremyguill/Desktop/weather/support.py", line 48, in getloc
+    res = requests.get('https://ipinfo.io/')
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1083487f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x102d977c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x102d977c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "current.py", line 60, in <module>
+    cur_weather = current_weather()
+  File "current.py", line 26, in current_weather
+    location = getloc()
+  File "/Users/jeremyguill/Desktop/weather/support.py", line 48, in getloc
+    res = requests.get('https://ipinfo.io/')
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x102d977c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Opened database successfully
+Execution Time: 12/25/2020 4:0:6
+{'temp': 31, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 7:50:2
+{'temp': 33, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 7:55:1
+{'temp': 33, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:0:1
+{'temp': 33, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:5:1
+{'temp': 33, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:10:1
+{'temp': 33, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:15:1
+{'temp': 33, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:20:1
+{'temp': 33, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:45:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:50:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 8:55:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 9:0:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 9:5:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 9:10:0
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 9:15:1
+{'temp': 34, 'icon': 'img/icons/13d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x109ae37c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x109ae37c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "current.py", line 60, in <module>
+    cur_weather = current_weather()
+  File "current.py", line 26, in current_weather
+    location = getloc()
+  File "/Users/jeremyguill/Desktop/weather/support.py", line 48, in getloc
+    res = requests.get('https://ipinfo.io/')
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jeremyguill/opt/anaconda3/envs/westher/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ipinfo.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x109ae37c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Opened database successfully
+Execution Time: 12/25/2020 21:45:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 21:50:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 21:55:0
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:0:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:5:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:10:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
