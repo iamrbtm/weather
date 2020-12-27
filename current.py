@@ -1,7 +1,9 @@
 from database import insert_data_current
 import requests, time
+import socket
 from datetime import datetime, timedelta
 from support import getloc, api_key
+from urllib.request import urlopen
 
 
 def current_weather():
@@ -61,5 +63,5 @@ if __name__ == '__main__':
     secondsFromEpoch = time.time()
     timeObj = time.localtime(secondsFromEpoch)
     print("Execution Time: %d/%d/%d %d:%d:%d" % ( timeObj.tm_mon, timeObj.tm_mday, timeObj.tm_year, timeObj.tm_hour, timeObj.tm_min, timeObj.tm_sec), end='\n')
-
+    print("Computer: " + socket.gethostname() + " | " + socket.gethostbyname(socket.gethostname()))
     print(cur_weather)

@@ -303,3 +303,257 @@ Execution Time: 12/25/2020 22:5:1
 Opened database successfully
 Execution Time: 12/25/2020 22:10:1
 {'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:15:2
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:20:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:25:3
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:30:2
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:35:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:40:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:45:0
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:50:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 22:55:2
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:0:1
+{'temp': 47, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:5:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:10:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:15:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:20:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:25:1
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:30:2
+{'temp': 47, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:35:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:40:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:45:3
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:50:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/25/2020 23:55:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:0:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:5:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:10:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:15:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:20:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:25:1
+{'temp': 46, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:30:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:35:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:40:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:45:1
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:50:2
+{'temp': 46, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 0:55:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:0:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:5:7
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:10:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:15:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:20:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:25:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:30:4
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:35:0
+{'temp': 45, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:40:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:45:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:50:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 1:55:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 2:0:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 2:5:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 2:10:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 2:15:1
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 4:20:2
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 12:40:4
+{'temp': 48, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 12:45:15
+{'temp': 48, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 12:50:3
+{'temp': 48, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 12:55:3
+{'temp': 47, 'icon': 'img/icons/10d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:0:1
+{'temp': 47, 'icon': 'img/icons/10d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:5:1
+{'temp': 48, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:10:1
+{'temp': 47, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:15:2
+{'temp': 47, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:20:1
+{'temp': 47, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:25:1
+{'temp': 47, 'icon': 'img/icons/04d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 13:30:1
+{'temp': 48, 'icon': 'img/icons/03d.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 17:35:2
+{'temp': 45, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:30:1
+Computer: Jeremys-iMac-20696.local | 192.168.2.12
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:35:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:40:2
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:45:2
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:50:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/26/2020 23:55:4
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:37 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:0:6
+Computer: Jeremys-iMac-20696.local | 192.168.2.12
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:5:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:10:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:15:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:20:2
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:25:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:30:3
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:35:2
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:40:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/10n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:45:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:50:1
+Computer: Jeremys-iMac-20696.local | 192.168.2.12
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}

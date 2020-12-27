@@ -1,7 +1,7 @@
 from io import BytesIO
 from PIL import Image
 import requests
-import os
+import os, socket
 
 
 def icon(icon_number, size=''):
@@ -54,8 +54,9 @@ def getloc():
     lon = location[1]
     state = data['region']
     country = data['country']
+    ip = data['ip']
 
-    return [lat, lon, city, state, country]
+    return [lat, lon, city, state, country, ip]
 
 
 def api_key():
@@ -64,8 +65,8 @@ def api_key():
 
 
 if __name__ == '__main__':
-    #     location = getloc()
-    #     print(location)
+        location = getloc()
+        print(location)
 
-    file = icon('50n', 2)
-    print(file)
+    # file = icon('50n', 2)
+    # print(file)
