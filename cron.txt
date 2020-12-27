@@ -557,3 +557,11 @@ Opened database successfully
 Execution Time: 12/27/2020 0:50:1
 Computer: Jeremys-iMac-20696.local | 192.168.2.12
 {'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 0:55:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
+Opened database successfully
+Execution Time: 12/27/2020 1:0:1
+Computer: Jeremys-MacBook-Pro-2925.local | 192.168.2.29
+{'temp': 44, 'icon': 'img/icons/04n.png', 'city': 'Dallas', 'lat': '44.9193', 'lon': '-123.3170', 'sunrise': '07:50 AM', 'sunset': '04:38 PM'}
